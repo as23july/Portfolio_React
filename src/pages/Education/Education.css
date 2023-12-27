@@ -1,0 +1,30 @@
+.education{
+    margin: 50px 0px;
+    margin-left: 150px;
+    /* padding-left: 120px; */
+    /* margin-top: 60px; */
+    background-color: rgba(128, 128, 128, 0.101);
+
+}
+.education hr{
+    color: rgb(255, 0, 0);
+    width: 450px;
+    margin: 10px auto;
+}
+.education h1{
+    font-weight: bold;
+    color: #138781;
+}
+
+/* .vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+    background-color: #138781;
+} */
+.education .vertical-timeline-element-title{
+    color: #138781;
+}
+.education .vertical-timeline-element-subtitle{
+    color: #1e1e2c;
+}
+.education .vertical-timeline::before{
+    background-color: #138781;
+}
