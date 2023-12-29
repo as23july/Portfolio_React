@@ -38,3 +38,10 @@
     background-color: #e0e0e0;
     margin-bottom: 5px;
 }
+.project .vertical-timeline::before{
+    background-color: rgb(33, 150, 243);
+}
+#dark .project{
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.15) ;
+}

@@ -1,13 +1,27 @@
 import React from 'react'
 import "./Home.css";
+import { useTheme } from '../../context/TheamContext';
 import Typewriter from 'typewriter-effect';
 import Resume from "../../assets/docs/Resume-Aditya.pdf";
+import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import Slide from 'react-reveal/Slide';
 
 const Home = () => {
+  const [theme, setTheme] = useTheme()
+
+  const handleTheme = () => {
+    setTheme(
+      (prevState) => (prevState === 'light' ? 'dark' : 'light')
+      )
+  }
   return (
     <>
-      <div class="container-fluid home-container">
+      <div class="container-fluid home-container" id="home">
+        <div class="theme-btn" onClick={handleTheme}>
+        {theme === 'light' ? (<BsMoonStarsFill size={30}/>) : ( <BsFillSunFill size={30}/>)}
+        </div>
         <div class="container home-content">
+        <Slide right>
           <h2>Hi👋 I'm Aditya Singh</h2>
           <h1>
             <Typewriter
@@ -22,9 +36,12 @@ const Home = () => {
               }}
             />
           </h1>
+          </Slide>
           <div className="home-buttons">
+          <Slide bottom>
             <button className="btn btn-hire"> Hire Me</button>
             <a className='btn btn-cv' href={Resume} download="Resume-Aditya.pdf">My Resume</a>
+              </Slide>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
     margin-left: 150px;
     /* padding-left: 120px; */
     /* margin-top: 60px; */
-    background-color: rgba(128, 128, 128, 0.101);
+    /* background-color: #1387812a; */
 
 }
 .education hr{
@@ -27,4 +27,8 @@
 }
 .education .vertical-timeline::before{
     background-color: #138781;
+}
+#dark .education{
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.15) ;
 }

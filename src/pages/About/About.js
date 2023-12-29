@@ -1,10 +1,12 @@
 import React from "react";
 import "./About.css";
 import profilePic from "../../assets/images/About_my.jpg";
+import Jump from 'react-reveal/Jump';
 
 const About = () => {
     return (
         <>
+            <Jump>
             <div class="about">
                 <div class="row">
                     <div class="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
@@ -17,6 +19,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            </Jump>
         </>
     )
 }
