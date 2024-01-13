@@ -39,7 +39,8 @@ const Home = () => {
           </Slide>
           <div className="home-buttons">
           <Slide bottom>
-            <button className="btn btn-hire"> Hire Me</button>
+            <a href="https://api.whatsapp.com/send?phone=8565038010" rel="noreferrer" target='blank' className='btn btn-hire'>Hire Me</a>
+            {/* <button className="btn btn-hire"> Hire Me</button> */}
             <a className='btn btn-cv' href={Resume} download="Resume-Aditya.pdf">My Resume</a>
               </Slide>
           </div>

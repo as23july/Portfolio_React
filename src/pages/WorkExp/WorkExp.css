@@ -35,3 +35,17 @@
     box-shadow: none;
     background-color: rgba(0, 0, 0, 0.15) ;
 }
+
+/* ================================ */
+
+@media(max-width:600px) {
+    .work{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .work h1{
+        padding-top: 20px;
+    }
+}
