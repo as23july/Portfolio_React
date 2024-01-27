@@ -1,15 +1,17 @@
 import React from 'react'
 import "./Contact.css";
 import contact from "../../assets/images/contact.jpg";
+import { useTheme } from '../../context/TheamContext';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
 
 const Contact = () => {
+    const[theme] = useTheme()
     return (
         <>
             <div class="container contact" id='contact'>
-                <div class="card card0 border-0">
+                <div class="card card0 border-0" id={theme}>
                     <div class="row">
                         <div class="col-md-6 col-lg-6 col-xl-6 col-sm-12">
                             <div class="card1">

@@ -46,46 +46,46 @@ export const TechstackList = [
         name: "TypeScript",
         icon: SiTypescript,
     },
-    {
-        _id: 6,
-        name: "Angular",
-        icon: SiAngular,
-    },
+    // {
+    //     _id: 6,
+    //     name: "Angular",
+    //     icon: SiAngular,
+    // },
     {
         _id: 7,
         name: "React JS",
         icon: SiReact,
     },
-    {
-        _id: 8,
-        name: "Nextjs",
-        icon: TbBrandNextjs,
-    },
-    {
-        _id: 9,
-        name: "React MUI",
-        icon: SiMui,
-    },
-    {
-        _id: 10,
-        name: "Tailwind ",
-        icon: SiTailwindcss,
-    },
-    {
-        _id: 11,
-        name: "Figma ",
-        icon: SiFigma,
-    },
-    {
-        _id: 12,
-        name: "Adobe XD ",
-        icon: SiAdobexd,
-    },
-    {
-        _id: 13,
-        name: "Photoshop ",
-        icon: SiAdobephotoshop,
-    },
+    // {
+    //     _id: 8,
+    //     name: "Nextjs",
+    //     icon: TbBrandNextjs,
+    // },
+    // {
+    //     _id: 9,
+    //     name: "React MUI",
+    //     icon: SiMui,
+    // },
+    // {
+    //     _id: 10,
+    //     name: "Tailwind ",
+    //     icon: SiTailwindcss,
+    // },
+    // {
+    //     _id: 11,
+    //     name: "Figma ",
+    //     icon: SiFigma,
+    // },
+    // {
+    //     _id: 12,
+    //     name: "Adobe XD ",
+    //     icon: SiAdobexd,
+    // },
+    // {
+    //     _id: 13,
+    //     name: "Photoshop ",
+    //     icon: SiAdobephotoshop,
+    // },
     {
         _id: 14,
         name: "React Native ",
@@ -116,19 +116,19 @@ export const TechstackList = [
         name: "SQL ",
         icon: SiMysql,
     },
-    {
-        _id: 20,
-        name: "Firebase ",
-        icon: SiFirebase,
-    },
+    // {
+    //     _id: 20,
+    //     name: "Firebase ",
+    //     icon: SiFirebase,
+    // },
     {
         _id: 21,
         name: "Git / Github ",
         icon: SiGithub,
     },
-    {
-        _id: 22,
-        name: "Docker ",
-        icon: SiDocker,
-    },
+    // {
+    //     _id: 22,
+    //     name: "Docker ",
+    //     icon: SiDocker,
+    // },
 ];

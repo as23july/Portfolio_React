@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Footer.css";
 const Footer = () => {
   return (
     <>
@@ -7,8 +7,8 @@ const Footer = () => {
 <footer class="page-footer font-small blue">
 
   {/* <!-- Copyright --> */}
-  <div class="footer-copyright text-center py-5">© 2020 Copyright:
-    <a href="/"> MDBootstrap.com</a>
+  <div class="footer-copyright text-center py-5">© 2023 Copyright : 
+    <a href="/"><b>Aditya Singh</b></a>
   </div>
   {/* <!-- Copyright --> */}
 

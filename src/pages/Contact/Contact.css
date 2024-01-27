@@ -75,7 +75,17 @@ button:focus{
         width: 100%;
     }
     .card0{
-        background-color: #5f264a;
+        /* background-color: #5f264a; */
+        padding-bottom: 20px;
+        box-shadow: none;
+    }
+    .card1 .image{
+        padding-top: 0px;
+    }
+    .card2 h6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
