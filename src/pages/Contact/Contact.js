@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
 
 const Contact = () => {
-    const[theme] = useTheme()
+    const [theme] = useTheme()
     return (
         <>
             <div class="container contact" id='contact'>
@@ -25,9 +25,10 @@ const Contact = () => {
                                 <div class="row">
                                     <div class="row">
                                         <h6>Contact with
-                                        <FaLinkedin color='blue' size={36} className='ms-2'/>
-                                        <FaGithub color='black' size={36} className='ms-2'/>
-                                        <FaWhatsappSquare  color='green' size={36} className='ms-2'/>
+                                            <a href="https://www.linkedin.com/in/as23-july/">
+                                                <FaLinkedin color='blue' size={36} className='ms-2' /></a>
+                                            <a href="https://github.com/as23july"><FaGithub color='black' size={36} className='ms-2' /></a>
+                                            <a href="https://api.whatsapp.com/send?phone=8565038010"><FaWhatsappSquare color='green' size={36} className='ms-2' /></a>
                                         </h6></div>
                                     <div class="row px-3 mb-4">
                                         <div class="line" />
