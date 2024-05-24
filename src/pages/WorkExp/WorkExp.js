@@ -19,7 +19,7 @@ const WorkExp = () => {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="June 2022 - August 2022"
+              date="December 2023 - April 2024"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdOutlineDeveloperMode />}
             >
@@ -80,7 +80,7 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="June 2022 - August 2022"
+              date="June 2023 - August 2023"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdOutlineDeveloperMode />}
             >
