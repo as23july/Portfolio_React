@@ -24,7 +24,7 @@ const WorkExp = () => {
               icon={<MdOutlineDeveloperMode />}
             >
               <h3 className="vertical-timeline-element-title">
-                IT Consultant
+                Trainee IT
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Innova Solutions
