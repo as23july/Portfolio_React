@@ -38,6 +38,9 @@
     background-color: rgba(0, 0, 0, 0.15) ;
 }
 
+.vertical-timeline-element-subtitle{
+    color: blue;
+}
 /* ================================ */
 
 @media(max-width:600px) {
