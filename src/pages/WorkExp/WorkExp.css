@@ -53,4 +53,7 @@
     .work h1{
         padding-top: 20px;
     }
+    .work-exp .vertical-timeline::before{
+        background-color: #000000;
+    }
 }
