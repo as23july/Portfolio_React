@@ -31,7 +31,7 @@
     position: relative;
 }
 .work-exp .vertical-timeline::before{
-    background-color: #138781;
+    background-color: #000000;
 }
 #dark .work{
     box-shadow: none;
